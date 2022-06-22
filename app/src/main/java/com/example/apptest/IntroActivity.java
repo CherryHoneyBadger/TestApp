@@ -14,7 +14,7 @@ public class IntroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
-    final Intent i = new Intent(this, QRscanActivity.class);
+    final Intent i = new Intent(this, MainActivity.class);
         Thread timer = new Thread() {
             public void run() {
                 try {
