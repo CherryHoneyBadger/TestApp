@@ -1,5 +1,5 @@
 
-## 모바일 앱 기능 샘
+## Mobile Function Sample List
 
 ## Sample Funtions
 
