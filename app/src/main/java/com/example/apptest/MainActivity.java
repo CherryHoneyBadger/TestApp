@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button qrscan, mediaplayer;
+    private Button qrscan, mediaplayer, webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         qrscan = (Button) findViewById(R.id.qr_scan);
         mediaplayer = (Button) findViewById(R.id.media_player);
+        webView = (Button) findViewById(R.id.webView);
 
         qrscan.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, MediaActivity.class);
+                startActivity(i);
+            }
+        });
+
+        webView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, WebViewActivity.class);
                 startActivity(i);
             }
         });
