@@ -1,11 +1,9 @@
-# TestApp
----
 
 ## 모바일 앱 기능 샘
 
-## 기능
+## Sample Funtions
 
-기능 추가 목록
-1. QR Code Scanner
-2. Video Player
-3. WebView 기능
+Feature Add Lists
+1. QR Code Scanner (not functions)
+2. Video Player Function
+3. WebView Function
